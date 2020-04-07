@@ -1,2 +1,7 @@
 # Dockerfile for Ubuntu with xtail
-You can use xtail to monitor entire folders for file additions
+Just an Ubuntu image with xtail installed, used for monitoring and restarting the WhatsApp core container.
+
+Xtail is used to monitor the entire log folder.
+
+Please note, this image is only tested with a WhatsApp Web/Core app combination connected to a Postgres server.
+
