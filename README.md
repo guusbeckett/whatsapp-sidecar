@@ -19,13 +19,13 @@ Under `volumes` (same level as `shareProcessNamespace`):
 - name: wacore-logs
   emptyDir: {}
 ```
-Under `volumeMounts` (in WhatsApp core app container dictionary value):
+Under `volumeMounts` (in WhatsApp core app `container` value):
 ```yaml
 - name: wacore-logs
   mountPath: /usr/local/waent/logs
 ```
 
-Add the following definition as a new entry in the containers dictionary:
+Add the following definition as a new entry in `containers`:
 ```yaml
 - name: sidecar
   image: proget-nwv1.cmtest.nl/dockerfeed/whatsapp/waweb:v2.23.4
