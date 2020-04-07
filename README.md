@@ -5,3 +5,4 @@ Xtail is used to monitor the entire log folder.
 
 Please note, this image is only tested with a WhatsApp Web/Core app combination connected to a Postgres server.
 
+Image can be downloaded from dockerhub at https://hub.docker.com/r/guusbeckett/whatsapp-sidecar
