@@ -1,4 +1,4 @@
-# Dockerfile for Ubuntu with xtail
+# WhatsApp sidecar image: Ubuntu with xtail
 Just an Ubuntu image with xtail installed, used for monitoring and restarting the WhatsApp core container.
 
 Xtail is used to monitor the entire log folder.
